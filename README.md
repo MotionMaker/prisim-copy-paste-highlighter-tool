@@ -1,7 +1,7 @@
 # PrismJS Code Syntax Highlighting Authoring Tool
 Simple web page using Prisim color syntax highlighter to generate formatted code for authoring.
 
-Useful for pasting color syntax highlighted code into Apple software like Keynote and Pages.
+Useful for pasting color syntax highlighted code into Apple software like Keynote and Pages so it can be copied by others who have a edoc or pdf version, in other words instead of screen shot images pasted in.
 
 Sample themes in repo are PrismJS 1.15.0 and include all languages.
 
@@ -21,3 +21,8 @@ Example: `<option value="html">HTML</option>`
 Language option value needs to come from the Prism list of supported languages you included. https://prismjs.com/index.html#languages-list 
 
 
+Issues: 
+
+1. You cannot copy the line numbers. Best workaround is to create a second text or shape/text element in the target software and simply number using the same font and background color then use the align tools. Add a verticle line if you want a divider. Another is to screen shot the output area.
+
+2. Saw Keynote crash intermittently when pasting. It may be that copy the code included areas outside the output box. Still investigation. Workround is to try copying again and only using the area in the output box and delete any previous paste in the target object. Bottom line its a Apple issue.
