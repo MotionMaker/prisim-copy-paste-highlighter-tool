@@ -1,0 +1,78 @@
+@charset "UTF-8";
+h2{
+	color:rgb(0,0,0);
+	margin-top:8px;
+}
+textarea {
+	border: 1px solid #ccc;
+	border-radius: 4px;
+	font-size: 1.1rem;
+	height: 6em;
+	margin: 8px 0;
+	padding: 12px 20px;
+	width: 100%;
+}
+#page-heading-section a{
+	color:black;
+}
+#basic-usage-link{
+	position:relative;
+	top:-1.5em;
+	left:0;
+}
+.color-black{
+	color:black;
+}
+.center-box{
+	margin:0 auto;
+}
+.center-text{
+	text-align:center;
+}
+#source-code-line-number-start, #source-code-language, #source-code-font{
+	width: auto;
+	font-size: 1.3em;
+}
+#source-code-out{
+	font-size: 30px;
+}
+#source-code-format{
+	padding:4px 14px;
+	width:auto;
+}
+#input-box{
+	max-width:800px;
+}
+input{
+	display:inline-block;
+	font-size:2.25rem;
+	width: 100%;
+}
+input[type=button]{
+	background-color:rgb(76,175,80);
+	border:rgb(76,175,80) solid 2px;
+	border-radius:4px;
+	color:rgb(255,255,255);
+	cursor:pointer;
+	display:inline-block;
+	font-size:1.25rem;
+	padding:12px 20px;
+}
+input[type=button]:hover{
+	border:rgb(255,255,255) solid 2px;
+}
+input[type=button]:active{
+	outline:none;
+}
+select{
+	border:2px solid #ccc;
+	border-radius:16px;
+	display:inline-block;
+	font-size:1.2rem;
+	margin:8px 0;
+	padding:12px 20px;
+	width:100%;
+}
+.line-numbers-rows > span:before{
+	color:white;
+}

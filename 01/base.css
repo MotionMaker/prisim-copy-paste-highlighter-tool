@@ -1,0 +1,66 @@
+@charset "UTF-8";
+/* select all elements
+	Exclude padding and border from block element width computations.
+*/
+*{
+	-webkit-box-sizing:border-box;
+	-moz-box-sizing:border-box;
+	box-sizing:border-box;
+}
+body{
+	font-family:'Open Sans', Helvetica, Arial, sans-serif;
+	font-size:16px;
+	dmargin:0;
+}
+/*	h1, h2, h3 elements*/
+h1, h2, h3{
+	margin-top:0;
+	margin-bottom:0;
+	text-align:center;
+}
+#page-heading-section{
+	background-color:rgba(0,0,0,.5);
+	color:rgba(255,255,255,1);
+	margin-top:0;
+	margin-bottom:0;
+	padding-top:31px;
+	padding-bottom:32px;
+}
+#page-content-section{
+	background-color:rgba(128,128,128,.25);
+	padding:16px;
+}
+#page-content-section p{
+	margin-top:0;
+}
+
+/* Code block */
+.code-block{
+	display: block;
+	padding: 9.5px;
+	margin: 0 0 10px;
+	font-family: Menlo,Monaco,Consolas,"Courier New",monospace;
+	font-weight:normal;
+	font-size: 13px;
+	line-height: 1.42857143;
+	color: #333;
+	/*word-wrap: break-word;*/
+	background-color: #f5f5f5;
+	border: 1px solid #ccc;
+	border-radius: 4px;
+}
+/* Word wrap break on word */
+.word-wrap{
+	white-space: pre-wrap;
+	white-space: -moz-pre-wrap;  
+	white-space: -pre-wrap;
+	white-space: -o-pre-wrap;
+	word-wrap: break-word;
+	word-break:normal;
+}
+/* Set tab size 4 */
+.tab-4{
+	-moz-tab-size:4;
+	-o-tab-size:4;
+	tab-size:4;
+}
