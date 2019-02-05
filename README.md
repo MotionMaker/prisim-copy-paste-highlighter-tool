@@ -20,9 +20,16 @@ Example: `<option value="html">HTML</option>`
 
 Language option value needs to come from the Prism list of supported languages you included. https://prismjs.com/index.html#languages-list 
 
+Set line number value to blank if you do not want line numbers.
+
+This code was not designed to be a perfect polished rich feature set. Just some basics for authoring with copyable color syntax highlighed code in Apple Keynote.
 
 Issues: 
 
-1. You cannot copy the line numbers. Best workaround is to create a second text or shape/text element in the target software and simply number using the same font and background color then use the align tools. Add a verticle line if you want a divider. Another is to screen shot the output area.
+1. You cannot copy the line numbers and vertical bar. Best workaround is to create a second text or shape/text element in the target software and simply number using the same font and background color then use the align tools. Add a verticle line if you want a divider. Another is to screen shot the output area.
 
 2. Saw Keynote crash intermittently when pasting. It may be that copy the code included areas outside the output box. Still investigation. Workround is to try copying again and only using the area in the output box and delete any previous paste in the target object. Bottom line its a Apple issue.
+
+3. Some font sizes might cause issues with line number alignment. PrismJS issue.
+
+
