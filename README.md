@@ -1,4 +1,4 @@
-# prisim-copy-paste-highlighter-tool
+# Prism Code Syntax Highlighting Authoring Tool
 Simple web page using Prisim color syntax highlighter to generate formatted code to paste into Apple software like Keynote and Pages.
 
 Sample themes in repo include all languages.
