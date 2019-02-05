@@ -3,7 +3,7 @@ Simple web page using Prisim color syntax highlighter to generate formatted code
 
 Useful for pasting color syntax highlighted code into Apple software like Keynote and Pages.
 
-Sample themes in repo include all languages.
+Sample themes in repo are PrismJS 1.15.0 and include all languages.
 
 You need to download the particular theme to the themes folder you want and modify the HTML code for it by adding or modifying the links in the `<div class="center-box center-text color-black">` container.
 
@@ -20,4 +20,4 @@ Example: `<option value="html">HTML</option>`
 
 Language option value needs to come from the Prism list of supported languages you included. https://prismjs.com/index.html#languages-list 
 
-PrismJS 1.15.0
+
