@@ -1,5 +1,5 @@
-# PrismJS Code Syntax Highlighting Authoring Tool
-Simple web page using Prisim color syntax highlighter to generate formatted code for authoring.
+# Simple PrismJS Code Syntax Highlighting Authoring Tool
+Simple web page using PrismJS color syntax highlighter to generate formatted code for authoring.
 
 Useful for pasting color syntax highlighted code into Apple software like Keynote and Pages so it can be copied by others who have a edoc or pdf version, in other words instead of screen shot images pasted in.
 
