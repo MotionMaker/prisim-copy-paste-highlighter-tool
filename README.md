@@ -24,7 +24,7 @@ Example: `<option value="html">HTML</option>`
 
 Language option value needs to come from the  <a href="https://prismjs.com/index.html#languages-list" target="_blank">Prism supported languages</a> you included.  
 
-Set line number value to blank if you do not want line numbers.
+Set start line number value to blank if you do not want line numbers.
 
 This code was not designed to be a perfect polished rich feature set. Just some basics for authoring with copyable color syntax highlighed code in Apple Keynote.
 
