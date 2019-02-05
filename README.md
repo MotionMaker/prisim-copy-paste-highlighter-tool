@@ -10,7 +10,8 @@ Uses PHP. See below how to modify to static HTML.
 Sample themes in repo are PrismJS 1.15.0 and include all languages.
 
 
-You need to [download!](https://prismjs.com/download.html) the particular theme to the themes folder you want and modify the HTML code for it by adding or modifying the links in the `<div class="center-box center-text color-black">` container.
+
+You need to <a href="https://prismjs.com/download.html" target="_blank">download</a> the particular theme to the themes folder you want and modify the HTML code for it by adding or modifying the links in the `<div class="center-box center-text color-black">` container.
 
 Example `<a href="?theme=default" >Default</a>&nbsp;|`
 
