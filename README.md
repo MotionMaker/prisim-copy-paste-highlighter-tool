@@ -22,7 +22,7 @@ Demo UI list dropdown only has a small set of languages however sample themes in
 
 Example: `<option value="html">HTML</option>`
 
-Language option value needs to come from the Prism list of supported languages you included. https://prismjs.com/index.html#languages-list 
+Language option value needs to come from the  <a href="https://prismjs.com/index.html#languages-list" target="_blank">Prism supported languages</a> you included.  
 
 Set line number value to blank if you do not want line numbers.
 
