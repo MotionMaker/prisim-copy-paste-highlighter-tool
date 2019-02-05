@@ -5,7 +5,7 @@ Useful for pasting color syntax highlighted code into Apple software like Keynot
 
 Useful in general for screen shots to add to other authoring software.
 
-Uses PHP. See below how to modify to static HTML.
+Uses PHP to support theme switching.
 
 Sample themes in repo are PrismJS 1.15.0 and include all languages.
 
@@ -27,33 +27,6 @@ Language option value needs to come from the  <a href="https://prismjs.com/index
 Set start line number value to blank if you do not want line numbers.
 
 This code was not designed to be a perfect polished rich feature set. Just some basics for authoring with copyable color syntax highlighed code in Apple Keynote.
-
-How to convert from PHP to static HTML.
-
-1. Rename the demo.php file to demo.html
-
-2. Remove these lines.
-
-```
-<?php
-$theme = "okaidia";
-if (isset($_GET['theme'])){
-	$theme = $_GET['theme'];
-}
-?>
-```
-
-3. Replace the PHP in this line to your theme folder name.
-
-Old: `<link href="../themes/<?php echo $theme?>/prism.css" rel="stylesheet" />`
-
-New: `<link href="../themes/okaidia/prism.css" rel="stylesheet" />`
-
-4. Replace the PHP in this line to your theme folder name.
-
-Old: `<h2>Theme <?php echo $theme?></h2>`
-
-New: `<h2>Theme okaidia</h2>`
 
 
 Issues: 
