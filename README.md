@@ -9,20 +9,19 @@ Uses PHP to support theme switching.
 
 Sample themes in repo are PrismJS 1.15.0 and include all languages.
 
-You need to <a href="https://prismjs.com/download.html" target="_blank">download</a> the particular theme to the themes folder you want and modify the HTML code for it by adding or modifying the links in the `<div class="center-box center-text color-black">` container.
+You need to [download](https://prismjs.com/download.html) the particular theme to the themes folder you want and modify the HTML code for it by adding or modifying the links in the `<div class="center-box center-text color-black">` container.
 
 Example `<a href="?theme=default" >Default</a>&nbsp;|`
 
 Sample screen.
 
-![image](https://drive.google.com/uc?export=view&id=15wDwsW_s0AY4X12wFMwk-0oqsLezZYbB)
-
+![Sample screen](https://drive.google.com/uc?export=view&id=15wDwsW_s0AY4X12wFMwk-0oqsLezZYbB)
 
 Demo UI list dropdown only has a small set of languages however sample themes in repo include all languages. You need to include the languages you want when you download the theme. Then modify the `<select id="source-code-language" >` element `<option...`  elements for the languages.
 
 Example: `<option value="html">HTML</option>`
 
-Language option value needs to come from the  <a href="https://prismjs.com/index.html#languages-list" target="_blank">Prism supported languages</a> you included.  
+Language option value needs to come from the [Prism supported languages](https://prismjs.com/index.html#languages-list) you included.  
 
 Set start line number value to blank if you do not want line numbers.
 
