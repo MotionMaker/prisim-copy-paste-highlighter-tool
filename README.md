@@ -30,12 +30,14 @@ How to convert from PHP to static HTML.
 
 2. Remove these lines.
 
-`<?php
+```
+<?php
 $theme = "okaidia";
 if (isset($_GET['theme'])){
 	$theme = $_GET['theme'];
 }
-?>`
+?>
+```
 
 3. Replace the PHP in this line to your theme folder name.
 
@@ -52,9 +54,9 @@ New: `<h2>Theme okaidia</h2>`
 
 Issues: 
 
-1. You cannot copy the line numbers and vertical bar. Best workaround is to create a second text or shape/text element in the target software and simply number using the same font and background color then use the align tools. Add a verticle line if you want a divider. Another is to screen shot the output area.
+1. You cannot copy the line numbers and vertical bar. Best workaround is to create a second text or shape/text object in the target software and simply number using the same font and background color then use the align tools. Add a verticle line if you want a divider. Another is to screen shot the output area.
 
-2. Saw Keynote crash intermittently when pasting. It may be that copy the code included areas outside the output box. Still investigation. Workround is to try copying again and only using the area in the output box and delete any previous paste in the target object. Bottom line its a Apple issue.
+2. Saw Keynote crash intermittently when pasting. It may be that the copy included areas outside the output box. Still investigating. Workround is to try copying again and only using the area in the output box and delete any previous paste in the target object. Bottom line its a Apple issue.
 
 3. Some font sizes might cause issues with line number alignment. PrismJS issue.
 
