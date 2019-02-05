@@ -1,5 +1,5 @@
 # prisim-copy-paste-highlighter-tool
-Simple web page using Prisim color syntax highlighter to generate formatted code to paste into Apple software like Keynote and Pages
+Simple web page using Prisim color syntax highlighter to generate formatted code to paste into Apple software like Keynote and Pages.
 
 Sample themes in repo include all languages.
 
@@ -12,4 +12,10 @@ Sample screen.
 ![image](https://drive.google.com/uc?export=view&id=15wDwsW_s0AY4X12wFMwk-0oqsLezZYbB)
 
 
-Demo UI only has a small set of languages however sample themes in repo include all languages. You need to include the languages you want when you download the theme. Then modify the `<select id="source-code-language" >` element for the languages.
+Demo UI list dropdown only has a small set of languages however sample themes in repo include all languages. You need to include the languages you want when you download the theme. Then modify the `<select id="source-code-language" >` element for the languages.
+
+Example: `<option value="html">HTML</option>`
+
+Language option value needs to come from the Prism list of supported languages you included. https://prismjs.com/index.html#languages-list 
+
+PrismJS 1.15.0
